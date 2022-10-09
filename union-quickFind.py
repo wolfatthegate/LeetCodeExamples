@@ -1,3 +1,4 @@
+#quickFind
 class UnionFind:
     def __init__(self, size):
         self.root = [i for i in range(size)]
