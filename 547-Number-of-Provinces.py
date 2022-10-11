@@ -27,7 +27,7 @@ class Solution:
             for j in range(i+1,numCities): 
                 if isConnected[i][j] == 1: 
                     union(i, j)
-        print(root)
+
         ans = set()
         for i in range(numCities): 
             ans.add(find(i))
